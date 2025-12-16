@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music — Max Usmanov</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <main id="main" class="container">
+
+    <nav aria-label="Page navigation" class="hub-nav">
+      <ul class="hub-bullets">
+        <li><a href="index.html">Back</a></li>
+      </ul>
+    </nav>
+
+    <header class="page-head">
+      <h1>Music</h1>
+    </header>
+
+    <section class="section" aria-labelledby="track-title">
+      <h2 id="track-title">Everytime I try to fly, i fall..</h2>
+
+      <figure class="music-cover">
+        <img
+          src="img/albumcover-800.jpg"
+          srcset="img/albumcover-800.jpg 1x, img/albumcover-1600.jpg 2x"
+          width="800"
+          height="800"
+          alt="Cover artwork for the track"
+          loading="lazy"
+        />
+        <figcaption class="muted">
+          December 12, 2025 - made on FL Studio
+        </figcaption>
+      </figure>
+
+      <audio controls preload="none">
+        <source src="media/Everytime-I-try-to-fly-i-fall.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>
+        My roommate and I made this when we were procrastinating for our finals. It samples Everytime by Ethel Cain and Roses by The Chainsmokers.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Max Usmanov</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+

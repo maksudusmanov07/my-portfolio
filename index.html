@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Max Usmanov — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main id="main" class="container">
+
+    <header class="hub-head">
+      <h1>Max Usmanov</h1>
+      <p class="visually-hidden">
+        Portfolio homepage linking to photography, timeline, and music sections.
+      </p>
+
+      <button
+        id="themeBtn"
+        class="btn subtle"
+        type="button"
+        aria-pressed="false"
+      >
+        Toggle theme
+      </button>
+    </header>
+
+    <div class="hub-divider" aria-hidden="true"></div>
+
+    <nav aria-label="Portfolio sections" class="hub-nav">
+      <ul class="hub-bullets">
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="music.html">Music</a></li>
+      </ul>
+    </nav>
+
+    <div class="hub-images">
+      <img
+        class="hub-texture"
+        src="img/palmtree-800.jpg"
+        srcset="img/palmtree-800.jpg 1x, img/palmtree-1600.jpg 2x"
+        width="800"
+        height="800"
+        alt="Palm trees"
+      />
+
+      <img
+        class="hub-texture"
+        src="img/palmtree-800.jpg"
+        srcset="img/palmtree-800.jpg 1x, img/palmtree-1600.jpg 2x"
+        width="800"
+        height="800"
+        alt="Palm trees"
+      />
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Max Usmanov</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
